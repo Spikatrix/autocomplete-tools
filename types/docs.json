@@ -811,7 +811,7 @@
           "name": "template",
           "excluded": false,
           "summary": "A template which is a single TemplateString or an array of TemplateStrings",
-          "discussion": "Templates are generators prebuilt by Fig. Here are the three templates:\n- filepaths: show folders and filepaths. Allow autoexecute on filepaths\n- folders: show folders only. Allow autoexecute on folders\n- history: show suggestions for all items in history matching this pattern\n- help: show subcommands. Only includes the 'siblings' of the nearest 'parent' subcommand",
+          "discussion": "Templates are generators prebuilt by Fig. Here are the available templates:\n- filepaths: show folders and filepaths. Allow autoexecute on filepaths\n- folders: show folders only. Allow autoexecute on folders\n- history: show suggestions for all items in history matching this pattern\n- help: show subcommands. Only includes the 'siblings' of the nearest 'parent' subcommand",
           "parameters": [],
           "optional": true,
           "declaration": "template?:\n  | (\"filepaths\" | \"folders\" | \"history\" | \"help\")\n  | (\"filepaths\" | \"folders\" | \"history\" | \"help\")[]",
@@ -992,7 +992,7 @@
           "name": "template",
           "excluded": false,
           "summary": "A template which is a single `TemplateString` or an array of `TemplateStrings`.",
-          "discussion": "Templates are generators prebuilt by Fig. Here are the three templates:\n- filepaths: show folders and filepaths. Allow autoexecute on filepaths\n- folders: show folders only. Allow autoexecute on folders\n- history: show suggestions for all items in history matching this pattern\n- help: show subcommands. Only includes the 'siblings' of the nearest 'parent' subcommand",
+          "discussion": "Templates are generators prebuilt by Fig. Here are the available templates:\n- filepaths: show folders and filepaths. Allow autoexecute on filepaths\n- folders: show folders only. Allow autoexecute on folders\n- history: show suggestions for all items in history matching this pattern\n- help: show subcommands. Only includes the 'siblings' of the nearest 'parent' subcommand",
           "parameters": [],
           "optional": true,
           "declaration": "template?:\n  | (\"filepaths\" | \"folders\" | \"history\" | \"help\")\n  | (\"filepaths\" | \"folders\" | \"history\" | \"help\")[]",
@@ -1169,7 +1169,7 @@
       "name": "TemplateStrings",
       "declaration": "type TemplateStrings = \"filepaths\" | \"folders\" | \"history\" | \"help\"",
       "summary": "Templates are generators prebuilt by Fig.",
-      "discussion": "Here are the three templates:\n- filepaths: show folders and filepaths. Allow autoexecute on filepaths\n- folders: show folders only. Allow autoexecute on folders\n- history: show suggestions for all items in history matching this pattern\n- help: show subcommands. Only includes the 'siblings' of the nearest 'parent' subcommand",
+      "discussion": "Here are the available templates:\n- filepaths: show folders and filepaths. Allow autoexecute on filepaths\n- folders: show folders only. Allow autoexecute on folders\n- history: show suggestions for all items in history matching this pattern\n- help: show subcommands. Only includes the 'siblings' of the nearest 'parent' subcommand",
       "examples": [],
       "parameters": []
     },
@@ -1177,7 +1177,7 @@
       "name": "Template",
       "declaration": "type Template =\n  | (\"filepaths\" | \"folders\" | \"history\" | \"help\")\n  | (\"filepaths\" | \"folders\" | \"history\" | \"help\")[]",
       "summary": "A template which is a single TemplateString or an array of TemplateStrings",
-      "discussion": "Templates are generators prebuilt by Fig. Here are the three templates:\n- filepaths: show folders and filepaths. Allow autoexecute on filepaths\n- folders: show folders only. Allow autoexecute on folders\n- history: show suggestions for all items in history matching this pattern\n- help: show subcommands. Only includes the 'siblings' of the nearest 'parent' subcommand",
+      "discussion": "Templates are generators prebuilt by Fig. Here are the available templates:\n- filepaths: show folders and filepaths. Allow autoexecute on filepaths\n- folders: show folders only. Allow autoexecute on folders\n- history: show suggestions for all items in history matching this pattern\n- help: show subcommands. Only includes the 'siblings' of the nearest 'parent' subcommand",
       "examples": [
         "`cd` uses the \"folders\" template\n`ls` used  [\"filepaths\", \"folders\"]. Why both? Because if I `ls` a directory, we want to enable a user to autoexecute on this directory. If we just did \"filepaths\" they couldn't autoexecute."
       ],

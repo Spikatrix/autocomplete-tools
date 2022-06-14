@@ -3,7 +3,7 @@ declare namespace Fig {
   /**
    * Templates are generators prebuilt by Fig.
    * @remarks
-   * Here are the three templates:
+   * Here are the available templates:
    * - filepaths: show folders and filepaths. Allow autoexecute on filepaths
    * - folders: show folders only. Allow autoexecute on folders
    * - history: show suggestions for all items in history matching this pattern
@@ -15,7 +15,7 @@ declare namespace Fig {
    * A template which is a single TemplateString or an array of TemplateStrings
    *
    * @remarks
-   * Templates are generators prebuilt by Fig. Here are the three templates:
+   * Templates are generators prebuilt by Fig. Here are the available templates:
    * - filepaths: show folders and filepaths. Allow autoexecute on filepaths
    * - folders: show folders only. Allow autoexecute on folders
    * - history: show suggestions for all items in history matching this pattern
@@ -755,7 +755,7 @@ declare namespace Fig {
      * A template which is a single TemplateString or an array of TemplateStrings
      *
      * @remarks
-     * Templates are generators prebuilt by Fig. Here are the three templates:
+     * Templates are generators prebuilt by Fig. Here are the available templates:
      * - filepaths: show folders and filepaths. Allow autoexecute on filepaths
      * - folders: show folders only. Allow autoexecute on folders
      * - history: show suggestions for all items in history matching this pattern
@@ -932,7 +932,7 @@ declare namespace Fig {
      * A template which is a single `TemplateString` or an array of `TemplateStrings`.
      *
      * @remarks
-     * Templates are generators prebuilt by Fig. Here are the three templates:
+     * Templates are generators prebuilt by Fig. Here are the available templates:
      * - filepaths: show folders and filepaths. Allow autoexecute on filepaths
      * - folders: show folders only. Allow autoexecute on folders
      * - history: show suggestions for all items in history matching this pattern
